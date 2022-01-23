@@ -3,14 +3,14 @@
   "version": "1.0.1",
   "description": "Node SDK for Mongo Atlas Data API",
   "exports": "./src/index.js",
-  "repository": "git@github.com:michaelwclark/mongodb-atlas-data-api-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelwclark/mongodb-atlas-data-api-sdk.git"
+  },
   "author": "Michael W. Clark",
   "license": "MIT",
   "type": "module",
   "private": false,
-  "scripts": {
-    "build": "npx babel src --out-dir dist"
-  },
   "devDependencies": {
     "@babel/cli": "^7.16.8",
     "@babel/core": "^7.16.12",
