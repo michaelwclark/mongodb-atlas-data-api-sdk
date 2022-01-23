@@ -1,0 +1,10 @@
+{
+  "name": "mongodb-atlas-data-api-sdk",
+  "version": "1.0.0",
+  "description": "Node SDK for Mongo Atlas Data API",
+  "main": "index.js",
+  "repository": "git@github.com:michaelwclark/mongodb-atlas-data-api-sdk.git",
+  "author": "Michael W. Clark",
+  "license": "MIT",
+  "private": false
+}
