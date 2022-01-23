@@ -1,13 +1,13 @@
 {
   "name": "mongodb-atlas-data-api-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node SDK for Mongo Atlas Data API",
   "exports": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/michaelwclark/mongodb-atlas-data-api-sdk.git"
   },
-   "bugs": {
+  "bugs": {
     "url": "https://github.com/michaelwclark/mongodb-atlas-data-api-sdk/issues/new"
   },
   "author": "Michael W. Clark",
@@ -36,5 +36,4 @@
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   }
-
 }
