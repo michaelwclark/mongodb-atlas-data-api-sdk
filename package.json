@@ -1,6 +1,6 @@
 {
   "name": "@michaelwclark/mongodb-atlas-data-api-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node SDK for Mongo Atlas Data API",
   "exports": "./src/index.js",
   "repository": {
@@ -29,9 +29,7 @@
     "api",
     "sdk"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/michaelwclark"
-  },
+
   "dependencies": {
     "json-colorizer": "^2.2.2",
     "node-fetch": "^3.2.0"
