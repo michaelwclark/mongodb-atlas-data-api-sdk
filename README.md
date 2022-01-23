@@ -8,7 +8,7 @@ Mongo Atlas recently released a Beta version of a Data API. Using this API you c
 [Resources](https://docs.atlas.mongodb.com/api/data-api-resources/)
 
 ## Examples
-For examples of how to use the SDK see [this repository](https://github.com/michaelwclark/mongodb-atlas-data-api-sdk-examples.
+For examples of how to use the SDK see [this repository](https://github.com/michaelwclark/mongodb-atlas-data-api-sdk-examples).
 
 ## Usage
 ```javascript
