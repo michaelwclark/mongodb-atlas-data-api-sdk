@@ -5,6 +5,7 @@ Mongo Atlas recently released a Beta version of a Data API. Using this API you c
 
 ## API Documentation
 [Mongo Atlas Data API - BETA](https://docs.atlas.mongodb.com/api/data-api/)
+
 [Resources](https://docs.atlas.mongodb.com/api/data-api-resources/)
 
 ## Examples
