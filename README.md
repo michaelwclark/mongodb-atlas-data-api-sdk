@@ -38,14 +38,23 @@ const { documents } = await mongoAtlasDataApiSdk.find({
 
 ## Available Methods
 [findOne](https://docs.atlas.mongodb.com/api/data-api-resources/#find-a-single-document)
+
 [find](https://docs.atlas.mongodb.com/api/data-api-resources/#find-multiple-documents)
+
 [insertOne](https://docs.atlas.mongodb.com/api/data-api-resources/#insert-a-single-document)
+
 [insertMany](https://docs.atlas.mongodb.com/api/data-api-resources/#insert-multiple-documents)
+
 [updateOne](https://docs.atlas.mongodb.com/api/data-api-resources/#update-a-single-document)
+
 [updateMany](https://docs.atlas.mongodb.com/api/data-api-resources/#update-multiple-documents)
+
 [replaceOne](https://docs.atlas.mongodb.com/api/data-api-resources/#replace-a-single-document)
+
 [deleteOne](https://docs.atlas.mongodb.com/api/data-api-resources/#delete-a-single-document)
+
 [deleteMany](https://docs.atlas.mongodb.com/api/data-api-resources/#delete-multiple-documents)
+
 [aggregate](https://docs.atlas.mongodb.com/api/data-api-resources/#run-an-aggregation-pipeline)
 
 [Errors](https://docs.atlas.mongodb.com/api/data-api-resources/#error-codes)
