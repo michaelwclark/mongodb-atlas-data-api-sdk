@@ -64,4 +64,6 @@ const { documents } = await mongoAtlasDataApiSdk.find({
 This projects uses ESM loader, if you need commonJS please open an issue and I'll add it in for you.
 
 # Todo
-Testing, better documentation, flow types or typescript. 
+- [ ] Testing
+- [ ] Better documentation
+- [ ] Flow types or TypeScript
