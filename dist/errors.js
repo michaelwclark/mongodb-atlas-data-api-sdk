@@ -1,4 +1,3 @@
-"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -14,8 +13,6 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.ServerError = exports.NotFound = exports.Unauthorized = exports.BadRequest = void 0;
 var BadRequest = /** @class */ (function (_super) {
     __extends(BadRequest, _super);
     function BadRequest(_a) {
@@ -29,7 +26,7 @@ var BadRequest = /** @class */ (function (_super) {
     }
     return BadRequest;
 }(Error));
-exports.BadRequest = BadRequest;
+export { BadRequest };
 var Unauthorized = /** @class */ (function (_super) {
     __extends(Unauthorized, _super);
     function Unauthorized(_a) {
@@ -43,7 +40,7 @@ var Unauthorized = /** @class */ (function (_super) {
     }
     return Unauthorized;
 }(Error));
-exports.Unauthorized = Unauthorized;
+export { Unauthorized };
 var NotFound = /** @class */ (function (_super) {
     __extends(NotFound, _super);
     function NotFound(_a) {
@@ -57,7 +54,7 @@ var NotFound = /** @class */ (function (_super) {
     }
     return NotFound;
 }(Error));
-exports.NotFound = NotFound;
+export { NotFound };
 var ServerError = /** @class */ (function (_super) {
     __extends(ServerError, _super);
     function ServerError(_a) {
@@ -71,5 +68,5 @@ var ServerError = /** @class */ (function (_super) {
     }
     return ServerError;
 }(Error));
-exports.ServerError = ServerError;
+export { ServerError };
 //# sourceMappingURL=errors.js.map
