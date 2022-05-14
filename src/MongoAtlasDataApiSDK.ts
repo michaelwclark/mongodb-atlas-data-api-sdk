@@ -1,4 +1,4 @@
-import colorizeJson = require("json-colorizer");
+import colorizeJson from "json-colorizer";
 import {
     BadRequest,
     Unauthorized,

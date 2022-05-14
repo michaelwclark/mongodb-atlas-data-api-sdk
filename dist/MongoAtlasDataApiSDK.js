@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -46,9 +45,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-var colorizeJson = require("json-colorizer");
-var errors_1 = require("./errors");
+import colorizeJson from "json-colorizer";
+import { BadRequest, Unauthorized, NotFound, ServerError } from './errors';
 var MongoAtlasDataApiSDK = /** @class */ (function () {
     function MongoAtlasDataApiSDK(apiKey, apiUrl, dbCluster, dbName, quiet) {
         this.apiKey = apiKey;
@@ -80,15 +78,15 @@ var MongoAtlasDataApiSDK = /** @class */ (function () {
                     case 3:
                         e_1 = _a.sent();
                         if (e_1.code === 400) {
-                            throw new errors_1.BadRequest(e_1);
+                            throw new BadRequest(e_1);
                         }
                         if (e_1.code === 401) {
-                            throw new errors_1.Unauthorized(e_1);
+                            throw new Unauthorized(e_1);
                         }
                         if (e_1.code === 404) {
-                            throw new errors_1.NotFound(e_1);
+                            throw new NotFound(e_1);
                         }
-                        throw new errors_1.ServerError(e_1);
+                        throw new ServerError(e_1);
                     case 4: return [2 /*return*/];
                 }
             });
@@ -251,5 +249,5 @@ var MongoAtlasDataApiSDK = /** @class */ (function () {
     };
     return MongoAtlasDataApiSDK;
 }());
-exports.default = MongoAtlasDataApiSDK;
+export default MongoAtlasDataApiSDK;
 //# sourceMappingURL=MongoAtlasDataApiSDK.js.map

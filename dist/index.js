@@ -1,11 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.ServerError = exports.NotFound = exports.Unauthorized = exports.BadRequest = void 0;
-var MongoAtlasDataApiSDK_1 = require("./MongoAtlasDataApiSDK");
-var errors_1 = require("./errors");
-Object.defineProperty(exports, "BadRequest", { enumerable: true, get: function () { return errors_1.BadRequest; } });
-Object.defineProperty(exports, "NotFound", { enumerable: true, get: function () { return errors_1.NotFound; } });
-Object.defineProperty(exports, "ServerError", { enumerable: true, get: function () { return errors_1.ServerError; } });
-Object.defineProperty(exports, "Unauthorized", { enumerable: true, get: function () { return errors_1.Unauthorized; } });
-exports.default = MongoAtlasDataApiSDK_1.default;
+import MongoAtlasDataApiSDK from './MongoAtlasDataApiSDK';
+import { BadRequest, NotFound, ServerError, Unauthorized } from './errors';
+export { BadRequest, Unauthorized, NotFound, ServerError };
+export default MongoAtlasDataApiSDK;
 //# sourceMappingURL=index.js.map
