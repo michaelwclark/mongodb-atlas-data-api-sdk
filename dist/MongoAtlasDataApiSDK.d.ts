@@ -1,4 +1,4 @@
-import { FindOneParams, FindParams, UpdateParams, DeleteParams, InsertManyParams, InsertOneParams, ReplaceOneParams, AggregateParams } from './params';
+import { FindOneParams, FindParams, UpdateParams, DeleteParams, InsertManyParams, InsertOneParams, ReplaceOneParams, AggregateParams } from './params.js';
 export default class MongoAtlasDataApiSDK {
     apiKey: string;
     apiUrl: string;

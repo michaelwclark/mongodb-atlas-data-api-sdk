@@ -46,7 +46,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 import colorizeJson from "json-colorizer";
-import { BadRequest, Unauthorized, NotFound, ServerError } from './errors';
+import { BadRequest, Unauthorized, NotFound, ServerError } from './errors.js';
 var MongoAtlasDataApiSDK = /** @class */ (function () {
     function MongoAtlasDataApiSDK(apiKey, apiUrl, dbCluster, dbName, quiet) {
         this.apiKey = apiKey;
