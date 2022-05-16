@@ -1,10 +1,10 @@
-import colorizeJson = require("json-colorizer");
+
 import {
     BadRequest,
     Unauthorized,
     NotFound,
     ServerError
-} from './errors';
+} from './errors.js';
 
 import {
     FindOneParams,
@@ -15,7 +15,7 @@ import {
     InsertOneParams,
     ReplaceOneParams,
     AggregateParams
-} from './params';
+} from './params.js';
 
 export default class MongoAtlasDataApiSDK {
     apiKey: string;
@@ -116,7 +116,7 @@ export default class MongoAtlasDataApiSDK {
     }
     private outputResults (results: any) {
         if (!this.quiet) {
-            console.log(colorizeJson(results, { pretty: true }))
+            console.log(results)
         }
     }
 }
