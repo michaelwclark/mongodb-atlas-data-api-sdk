@@ -4,7 +4,7 @@ import {
     Unauthorized,
     NotFound,
     ServerError
-} from './errors';
+} from './errors.js';
 
 import {
     FindOneParams,
@@ -15,7 +15,7 @@ import {
     InsertOneParams,
     ReplaceOneParams,
     AggregateParams
-} from './params';
+} from './params.js';
 
 export default class MongoAtlasDataApiSDK {
     apiKey: string;
