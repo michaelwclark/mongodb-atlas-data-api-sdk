@@ -1,4 +1,4 @@
-import colorizeJson from "json-colorizer";
+
 import {
     BadRequest,
     Unauthorized,
@@ -116,7 +116,7 @@ export default class MongoAtlasDataApiSDK {
     }
     private outputResults (results: any) {
         if (!this.quiet) {
-            console.log(colorizeJson(results, { pretty: true }))
+            console.log(results)
         }
     }
 }

@@ -36,9 +36,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/michaelwclark"
   },
-  "dependencies": {
-    "json-colorizer": "^2.2.2"
-  },
+  "dependencies": {},
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   }

@@ -45,7 +45,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-import colorizeJson from "json-colorizer";
 import { BadRequest, Unauthorized, NotFound, ServerError } from './errors.js';
 var MongoAtlasDataApiSDK = /** @class */ (function () {
     function MongoAtlasDataApiSDK(apiKey, apiUrl, dbCluster, dbName, quiet) {
@@ -244,7 +243,7 @@ var MongoAtlasDataApiSDK = /** @class */ (function () {
     };
     MongoAtlasDataApiSDK.prototype.outputResults = function (results) {
         if (!this.quiet) {
-            console.log(colorizeJson(results, { pretty: true }));
+            console.log(results);
         }
     };
     return MongoAtlasDataApiSDK;
